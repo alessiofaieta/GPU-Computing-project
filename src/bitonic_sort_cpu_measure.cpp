@@ -78,8 +78,8 @@ int main(int argc, char** argv) {
 			clock_t start_time = std::clock();
 			// std::sort(v_out, v_in + vector_size);
 			// sorter(v_out, 0, vector_size);
-			// bitonic_sort(v_out, vector_size);
-			bitonic_sort2(v_out, vector_size);
+			bitonic_sort(v_out, vector_size);
+			// bitonic_sort_count_swaps(v_out, vector_size);
 			clock_t end_time = std::clock();
 			
 			double elapsed_time_s = (double) (end_time - start_time) / CLOCKS_PER_SEC;

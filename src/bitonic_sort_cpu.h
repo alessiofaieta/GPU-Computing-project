@@ -6,7 +6,7 @@
 #define N_VALUES_PER_COMPARATOR 2
 
 
-void bitonic_sort2(int *v, uint64_t vector_size) {
+void bitonic_sort_count_swaps(int *v, uint64_t vector_size) {
 	uint64_t n_swaps = 0;
 	uint64_t n_comparators = vector_size / N_VALUES_PER_COMPARATOR;
 
